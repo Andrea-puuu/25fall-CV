@@ -1,0 +1,24 @@
+# dataset.yaml
+# 车牌检测数据集配置 - 手动标注版本
+
+# 数据集路径
+# 数据集路径
+path: .
+train: license_plate_dataset
+val: license_plate_dataset
+test: license_plate_dataset
+
+# 类别数量
+nc: 1
+
+# 类别名称
+names: ['license_plate']
+
+# 数据集信息
+num_train: 80
+num_val: 21
+total_samples: 101
+author: YuChuan Pu
+date: 2025-01-08
+description: 手动标注的车牌检测数据集
+source: MakeSense标注工具
