@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Model weights and checkpoints (may contain sensitive data or be too large)
+*.pth
+*.pt
+*.onnx
+*.h5
+
+# Dataset files (should not be committed)
+license_plate_dataset/
+车牌标注_processed_v2/
+dataset/
+*.zip
+*.tar.gz
+
+# Training artifacts
+training_history.png
+model_evaluation.txt
+simple_training_evaluation.txt
+tiny_training_evaluation.txt
+fixed_training_evaluation.txt
+prediction_sample_*.png
+detection_result_*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
